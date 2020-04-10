@@ -1,0 +1,97 @@
+$default-shadow: 0 2px 3px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.1) !default;
+.has-shadow { box-shadow: $default-shadow; }
+
+.has-equal-height {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+img.is-pulled-left {
+  margin: 0.25rem 1rem 1rem 0;
+  // padding-top: 0.25rem;
+  // margin-right: 1rem;
+  // margin-bottom: 1rem;
+}
+
+img.is-pulled-right {
+  margin: 0.25rem 0 1rem 1rem;
+}
+
+// margin and padding values array
+$space-values : (
+    0	: 0,
+    1	: 0.25rem,
+    2	: 0.5rem,
+    3	: 0.75rem,
+    4	: 1rem,
+    5	: 1.25rem,
+    6	: 1.5rem,
+    7	: 1.75rem,
+    8	: 2rem,
+    10	: 2.5rem,
+    12	: 3rem,
+    16	: 4rem,
+    20	: 5rem,
+    25rem: 25rem,
+) !default;
+
+// margin and padding shorthands
+$space-prefixes : (
+  p  : 'padding',
+  pt : 'padding-top',
+  pr : 'padding-right',
+  pb : 'padding-bottom',
+  pl : 'padding-left',
+  m  : 'margin',
+  mt : 'margin-top',
+  mr : 'margin-right',
+  mb : 'margin-bottom',
+  ml : 'margin-left',
+  w  : 'width',
+) !default;
+
+@each $attr-short, $attr-long in $space-prefixes {
+  @each $id, $value in $space-values {
+    .#{$attr-short}-#{$id} {
+      #{$attr-long}: #{$value} !important;
+    }
+  }
+}
+
+.is-10p-wide { width: 10% !important; }
+.is-15p-wide { width: 15% !important; }
+.is-20p-wide { width: 20% !important; }
+.is-25p-wide { width: 25% !important; }
+.is-33p-wide { width: 33% !important; }
+.is-50p-wide { width: 50% !important; }
+.is-66p-wide { width: 66% !important; }
+.is-75p-wide { width: 75% !important; }
+
+.is-2rem-wide  { width: 2rem !important; }
+.is-3rem-wide  { width: 3rem !important; }
+.is-5rem-wide  { width: 5rem !important; }
+.is-10rem-wide { width: 10rem !important; }
+.is-25rem-wide { width: 25rem !important; }
+.is-50rem-wide { width: 50rem !important; }
+
+.r-1 { border-radius: 1px; }
+.r-2 { border-radius: 2px; }
+.r-3 { border-radius: 3px; }
+.r-4 { border-radius: 4px; }
+
+.z-index-1 {
+  z-index: 1 !important;
+}
+
+.z-index-9 {
+  z-index: 9 !important;
+}
+
+.z-index-10 {
+  z-index: 10 !important;
+}
+
+.z-index-99 {
+  z-index: 99 !important;
+}

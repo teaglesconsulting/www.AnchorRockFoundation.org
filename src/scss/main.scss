@@ -1,0 +1,10 @@
+/* Theme style (colors & sizes) */
+@import "helpers";
+@import "theme-default";
+
+/* Buefy has Bulma included. So we import just that */
+@import "~buefy/src/scss/buefy-build";
+
+.navbar-item img {
+  width: auto;
+}

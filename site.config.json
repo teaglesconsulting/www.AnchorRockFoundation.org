@@ -1,0 +1,37 @@
+{
+  "siteName": "Company Name",
+  "headerNavigation": [
+    {
+      "text": "Home",
+      "link": "/",
+      "external": false
+    },
+    {
+      "text": "COVID-19",
+      "link": "/COVID-19",
+      "external": false
+    }
+  ],
+  "footerNavigation": [
+    {
+      "name": "Latest Posts",
+      "link": "/",
+      "external": false
+    },
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com",
+      "external": true
+    },
+    {
+      "name": "Gridsome",
+      "link": "https://www.gridsome.org",
+      "external": true
+    },
+    {
+      "name": "RSS",
+      "link": "/rss.xml",
+      "external": false
+    }
+  ]
+}
