@@ -29,7 +29,9 @@
     div.main.container.section
       slot
 
-    footer.has-text-centered
+    footer.footer.has-text-centered
+      p Anchor Rock Foundation Inc.
+
 </template>
 
 <static-query>

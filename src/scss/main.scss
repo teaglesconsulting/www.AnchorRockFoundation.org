@@ -5,6 +5,13 @@
 /* Buefy has Bulma included. So we import just that */
 @import "~buefy/src/scss/buefy-build";
 
+.content {
+  blockquote {
+    border-left: 5px solid #C01B28;
+    box-shadow: $default-shadow;
+  }
+}
+
 .navbar-item img {
   width: auto;
 }
