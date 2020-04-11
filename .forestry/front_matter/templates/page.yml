@@ -20,3 +20,5 @@ fields:
   type: boolean
   label: Published
   default: true
+pages:
+- content/pages/index.md
