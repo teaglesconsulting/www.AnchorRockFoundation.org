@@ -4,9 +4,10 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: Page Name
+  label: Title
   config:
     required: true
+  description: For internal purposes
 - name: heading
   type: text
   config:
