@@ -1,8 +1,10 @@
 ---
-title: 'COVID-19'
-subtitle: 'What Are We Doing Now And Why?'
----
+title: COVID-19
+subtitle: What Are We Doing Now And Why?
+published: true
+heading: COVID-19
 
+---
 __We believe that the bottom line is to help heal our communities__ and to make them healthier, safer, stronger and more
 responsive over all—one person at a time or on a more massive scale. In the current healthcare climate, one way we can
 help most effectively is as follows:

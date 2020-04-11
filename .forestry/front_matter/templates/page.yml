@@ -21,4 +21,5 @@ fields:
   label: Published
   default: true
 pages:
+- content/pages/COVID-19.md
 - content/pages/index.md
