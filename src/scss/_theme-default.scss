@@ -19,7 +19,6 @@ $fullhd-enabled: false;
 $primary: #C01B28;
 $default-shadow: 0 2px 3px rgba(black, 0.1), 0 0 0 1px rgba(black, 0.1) !default;
 
-
 /* Status/State colors (based on Bulma's) */
 $state-colors:
   ('primary', $primary, $white),
@@ -29,7 +28,6 @@ $state-colors:
   ('danger', $red, $white),
   ('dark', $grey-darker, $white),
   ('white', $white, $black-ter);
-
 
 // $footer-padding: ;
 

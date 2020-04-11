@@ -14,7 +14,7 @@ fields:
     required: false
   label: Heading
 - type: text
-  name: subtitle
+  name: subheading
   label: SubHeading
 - name: published
   type: boolean

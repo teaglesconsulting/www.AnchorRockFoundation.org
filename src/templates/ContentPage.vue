@@ -1,7 +1,7 @@
 <template lang="pug">
   Layout
-    h1.title.has-text-centered {{ $page.contentPage.title }}
-    h2.subtitle.has-text-centered(v-if="$page.contentPage.subtitle") {{ $page.contentPage.subtitle }}
+    h1.title.has-text-centered {{ $page.contentPage.heading }}
+    h2.subtitle.has-text-centered(v-if="$page.contentPage.subheading") {{ $page.contentPage.subheading }}
     VueRemarkContent.content
       slot
 </template>
@@ -11,7 +11,8 @@ query ($id: ID!) {
   contentPage(id: $id) {
     published
     title
-    subtitle
+    heading
+    subheading
   }
 }
 </page-query>

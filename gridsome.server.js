@@ -24,7 +24,8 @@ module.exports = function (api) {
         },
         fields: {
           title: 'String',
-          subtitle: 'String',
+          heading: 'String',
+          subheading: 'String',
           published: 'Boolean'
         }
       })
