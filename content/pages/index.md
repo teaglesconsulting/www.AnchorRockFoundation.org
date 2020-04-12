@@ -5,8 +5,6 @@ subheading: ''
 published: true
 
 ---
-![](/assets/static/logo.png)
-
 We are a small, faith-based 501.c.3 charitable foundation located on the shores of Southwest Michigan and established in
 December of 2019. The vision for the foundation is to change the world in the best ways we can, starting with filling
 niches and gaps in existing government and charitable private agencies to help meet fundamental needs for vulnerable
