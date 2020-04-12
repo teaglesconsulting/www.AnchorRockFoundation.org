@@ -30,6 +30,12 @@ There are several ways you can be part of the solution.
 Donations in any amount can be made in 1 of 2 ways: Through the Paypal Donation link in this message, or by check to
 Anchor Rock Foundation Inc. at 11555 Crossings Court, Suite 110, Holland, MI 49424. All donations are tax deductible and
 will be used for supplies and retooling.
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="MPBLRY2UJ2CJJ" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+    title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+</form>
 
 ### VOLUNTEERS
 #### SEWERS:

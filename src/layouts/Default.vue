@@ -30,8 +30,12 @@
       slot
 
     footer.footer.has-text-centered
-      p Anchor Rock Foundation Inc.
-
+      p.mb-2 Anchor Rock Foundation Inc.
+      form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
+        input(type="hidden" name="cmd" value="_s-xclick")
+        input(type="hidden" name="hosted_button_id" value="MPBLRY2UJ2CJJ")
+        input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+          title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button")
 </template>
 
 <static-query>
