@@ -6,6 +6,16 @@
       slot
 </template>
 
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.contentPage.heading,
+    }
+  }
+}
+</script>
+
 <page-query>
 query ($id: ID!) {
   contentPage(id: $id) {
