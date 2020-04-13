@@ -9,6 +9,10 @@ sections:
   label: Pages
   create: all
   match: "**/*.md"
+- type: document
+  path: content/site.config.json
+  label: Site Config
+  match: "**/*"
 upload_dir: content/media
 public_path: media
 front_matter_path: ''
