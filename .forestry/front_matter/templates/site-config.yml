@@ -22,3 +22,5 @@ fields:
     label: external
   config:
     labelField: text
+pages:
+- content/site.config.json
