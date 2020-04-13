@@ -4,16 +4,11 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const config = require("../content/site.config.json")
 module.exports = {
-  siteName: "Anchor Rock Foundation",
+  siteName: config.siteName,
   plugins: [
     "gridsome-plugin-pug",
-    {
-      use: "gridsome-source-static-meta",
-      options: {
-        path: "site.config.json",
-      },
-    },
     {
       use: "@gridsome/vue-remark",
       options: {

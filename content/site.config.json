@@ -1,0 +1,20 @@
+{
+  "siteName": "Anchor Rock Foundation",
+  "headerNavigation": [
+    {
+      "text": "Home",
+      "link": "/",
+      "external": false
+    },
+    {
+      "text": "COVID-19",
+      "link": "/COVID-19",
+      "external": false
+    },
+    {
+      "text": "Volunteer",
+      "link": "/volunteer",
+      "external": false
+    }
+  ]
+}

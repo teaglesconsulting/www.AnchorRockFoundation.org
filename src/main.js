@@ -5,4 +5,5 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component("Layout", () => import("~/layouts/Default.vue"))
 
   Vue.component("BaseLink", () => import("~/components/BaseLink.vue"))
+  Vue.prototype.$site = require("../content/site.config.json")
 }

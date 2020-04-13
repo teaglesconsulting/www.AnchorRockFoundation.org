@@ -17,7 +17,6 @@
     "@gridsome/vue-remark": "^0.1.10",
     "gridsome": "^0.7.0",
     "gridsome-plugin-pug": "^0.0.3",
-    "gridsome-source-static-meta": "^1.0.1",
     "minimist": "^1.2.5",
     "node-sass": "^4.13.1",
     "pug": "^2.0.4",

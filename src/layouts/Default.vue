@@ -4,7 +4,7 @@
       div.container
         div.navbar-brand
           g-link(to="/").navbar-item
-            g-image(src="~/images/logo.png" width="400" :immediate="true" :alt="$static.metadata.siteName")
+            g-image(src="~/images/logo.png" width="400" :immediate="true" :alt="$site.siteName")
 
           a.navbar-burger(@click="$state.navbarIsActive = !$state.navbarIsActive")
             span
@@ -16,7 +16,7 @@
             //- g-link(to="/" active-class="is-active" exact).navbar-item.is-tab Home
 
           div.navbar-end
-            template(v-for="(item, index) in $static.metadata.headerNavigation")
+            template(v-for="(item, index) in $site.headerNavigation")
               a(
                 v-if="item.external"
                 :href="item.link"
@@ -37,16 +37,3 @@
         input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
           title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button")
 </template>
-
-<static-query>
-query {
-  metadata {
-    siteName
-    headerNavigation : headerNavigation {
-      text
-      link
-      external
-    }
-  }
-}
-</static-query>
