@@ -4,7 +4,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const config = require("../content/site.config.json")
+const config = require("./content/site.config.json")
 module.exports = {
   siteName: config.siteName,
   plugins: [
