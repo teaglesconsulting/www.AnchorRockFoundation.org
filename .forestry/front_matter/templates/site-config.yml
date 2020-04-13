@@ -4,10 +4,12 @@ hide_body: true
 fields:
 - type: text
   name: siteName
-  label: siteName
+  label: Site Name
+  config:
+    required: true
 - type: field_group_list
   name: headerNavigation
-  label: headerNavigation
+  label: Main Navigation
   fields:
   - type: text
     name: text
