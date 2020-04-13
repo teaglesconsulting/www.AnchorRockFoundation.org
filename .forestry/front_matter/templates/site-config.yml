@@ -20,3 +20,5 @@ fields:
   - type: boolean
     name: external
     label: external
+  config:
+    labelField: text
