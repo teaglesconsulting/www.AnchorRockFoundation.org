@@ -1,0 +1,20 @@
+---
+label: Site Config
+hide_body: true
+fields:
+- type: text
+  name: siteName
+  label: siteName
+- type: field_group_list
+  name: headerNavigation
+  label: headerNavigation
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: link
+    label: link
+  - type: boolean
+    name: external
+    label: external
