@@ -14,7 +14,7 @@ module.exports = {
       options: {
         id: 'UA-163587962-1'
       }
-    }
+    },
     {
       use: "@gridsome/vue-remark",
       options: {
