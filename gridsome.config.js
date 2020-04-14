@@ -10,6 +10,12 @@ module.exports = {
   plugins: [
     "gridsome-plugin-pug",
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-163587962-1'
+      }
+    }
+    {
       use: "@gridsome/vue-remark",
       options: {
         typeName: "ContentPage",
