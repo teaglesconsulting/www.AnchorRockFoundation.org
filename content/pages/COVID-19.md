@@ -60,5 +60,7 @@ Transportation to get to the packing and shipping site.
 Willingness to work wearing masks and gloves before you even enter the site doors, and cooperation in maintaining safe
 social distancing at all times.
 
+<VolunteerForm />
+
 > Fighting this pandemic takes all of us. Together, we can be far more effective at fighting infection than we can as
 > individuals
