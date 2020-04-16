@@ -10,7 +10,7 @@ published: true
 In the current COVID-19 crisis, we are all vulnerable, but some are at far greater risk than at others. One of the ways we can help a lot of people in very simple ways is to partner with existing companies and service groups to try to meet shortages in the supply chain for Personal Protection Products. One of the most significant differences in communities that are weathering the pandemic successfully and those who are not is whether EVERYONE wears protective masks and gloves—especially masks.
 
 Many people are beginning to make masks at home. It’s a good start, and far better than nothing, but the need is huge.
-We are beginning a project to produce protective face masks in three sizes (recognizing that adult masks simply don’t
+We are beginning a project to produce protective face masks in two sizes (recognizing that adult masks simply don’t
 work for small children) for distribution to medical and health services organizations and the general public by the
 thousands. especially those who are among the most vulnerable such as medical caregivers.
 
