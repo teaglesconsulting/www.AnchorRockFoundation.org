@@ -70,7 +70,7 @@ skills, keeping volunteers informed, and conveying the organization's purpose to
 #### SEWERS:
 
 We need people who can and will sew, and who will follow instructions for sewing precut masks precisely. They are simple
-to sew but don’t work if they are not sewn correctly.   [Mask Sewing Instructions]('/covid-19/mask-sewing-instructions/')
+to sew but don’t work if they are not sewn correctly.   [Mask Sewing Instructions](/covid-19/mask-sewing-instructions/)
 
 **WHAT ARE THE REQUIREMENTS?**
 
@@ -100,5 +100,4 @@ place, and we also need approval for people to leave their homes to get there wi
 
 
 
-> Fighting this pandemic takes all of us. Together, we can be far more effective at fighting infection than we can as
-> individuals
+> Fighting this pandemic takes all of us. Together, we can be far more effective at fighting infection than we can as individuals

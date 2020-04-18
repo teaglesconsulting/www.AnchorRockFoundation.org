@@ -15,3 +15,5 @@ communities. Our primary focus is on serving disabled veterans, seniors who are 
 residences and retirement communities/facilities, adults with special needs and adults returning to mainstream society
 and the workforce for various reasons. It’s a huge vision, and as a new agency, we realize that we have to build our
 programs carefully over time, following the direction we receive in faith.
+
+> [COVID-19 - What Are We Doing Now And Why?](/covid-19/)
