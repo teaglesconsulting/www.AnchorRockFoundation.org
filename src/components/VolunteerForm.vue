@@ -61,5 +61,5 @@
 
       div.field
         div.control
-          button.button I'm ready to volunteer!
+          button(type="submit").button I'm ready to volunteer!
 </template>

@@ -17,5 +17,5 @@
 
     div.field
       div.control
-        button.button Send
+        button(type="submit").button Send
 </template>
