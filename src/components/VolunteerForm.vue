@@ -39,16 +39,16 @@
       div.field.is-grouped
         div.control
           label.checkbox
+            input(name="supervisor" type="checkbox")
+            span.ml-1 Volunteer Coordinator
+        div.control
+          label.checkbox
             input(name="sewer" type="checkbox")
             span.ml-1 Sewer
         div.control
           label.checkbox
             input(name="packer" type="checkbox")
             span.ml-1 Packer
-        div.control
-          label.checkbox
-            input(name="supervisor" type="checkbox")
-            span.ml-1 Supervisor
         div.control
           label.checkbox
             input(name="acknowledgement" type="checkbox")

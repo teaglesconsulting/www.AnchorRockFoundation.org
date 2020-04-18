@@ -30,7 +30,8 @@
       slot
 
     footer.footer.has-text-centered
-      p.mb-2 Anchor Rock Foundation Inc.
+      p.mb-1: strong Anchor Rock Foundation Inc.
+      p.mb-2 <a href="https://goo.gl/maps/T1csK6ETtv39RuAZ7">11555 Crossings Ct, Suite 110, Holland MI 49424</a> | <a href="tel:+16166004501">(616) 600-4501</a> |  <a href="https://www.anchorrockfoundation.org/">www.AnchorRockFoundation.org</a>
       form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
         input(type="hidden" name="cmd" value="_s-xclick")
         input(type="hidden" name="hosted_button_id" value="MPBLRY2UJ2CJJ")
