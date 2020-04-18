@@ -1,5 +1,5 @@
 <template lang="pug">
-  form(name="ARF Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/confirmations/contact")
+  form(name="ARF Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/confirmations/contact/")
     div.field
       label.label Name
       div.control
