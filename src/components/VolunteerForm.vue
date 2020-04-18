@@ -1,7 +1,7 @@
 <template lang="pug">
   div.section.has-shadow.mb-2
     h3.title.mb-2 Volunteer Form
-    form(name="ARF Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/confirmations/volunteer")
+    form(name="ARF Volunteer Form" method="POST" data-netlify-recaptcha="true" data-netlify="true" action="/confirmations/volunteer")
       div.field
         label.label Name
         div.control
@@ -63,5 +63,3 @@
         div.control
           button.button I'm ready to volunteer!
 </template>
-
-or the volunteer form:  Basic contact info...name, address, phone, email, and an acknowledgement that they meet the criteria specified in that bullet list.  We will send them the initial kit of 10 when approved, then when returned, we will increase their kit count.
