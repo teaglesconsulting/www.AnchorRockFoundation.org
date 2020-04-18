@@ -3,17 +3,17 @@
     div.field
       label.label Name
       div.control
-        input.input( type="text" placeholder="Name")
+        input.input(name="name" type="text" placeholder="Name")
 
     div.field
       label.label Email
       div.control
-        input.input( type="text" placeholder="Email")
+        input.input(name="email" type="email" placeholder="Email")
 
     div.field
       label.label Message
       div.control
-        textarea.textarea(placeholder="Message")
+        textarea.textarea(name="Message" placeholder="Message")
 
     div.field
       div.control
