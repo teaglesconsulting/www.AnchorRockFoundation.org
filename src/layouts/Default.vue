@@ -26,8 +26,7 @@
               ).navbar-item.is-tab {{ item.text }}
               BaseLink(v-else :to="item.link").navbar-item.is-tab {{ item.text }}
 
-    div.main.container.section
-      slot
+    slot
 
     footer.footer.has-text-centered
       p.mb-1: strong Anchor Rock Foundation Inc.
