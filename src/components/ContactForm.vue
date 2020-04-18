@@ -1,5 +1,5 @@
 <template lang="pug">
-  form(name="ARF Contact" method="POST" data-netlify="true" action="/confirmations/contact")
+  form(name="ARF Contact" method="POST" action="https://formbucket.com/f/buk_fksDaZZVJ6fK6GDAIMJzoRgw")
     div.field
       label.label Name
       div.control

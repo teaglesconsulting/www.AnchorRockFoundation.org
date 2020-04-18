@@ -1,7 +1,7 @@
 <template lang="pug">
   div.section.has-shadow.mb-2
     h3.title.mb-2 Volunteer Form
-    form(name="ARF Volunteer Form" method="POST" data-netlify="true" action="/confirmations/volunteer")
+    form(name="ARF Volunteer Form" method="POST" action="https://formbucket.com/f/buk_JJEf7uWIB5SkjPNfQnL7Et2n")
       div.field
         label.label Name
         div.control
