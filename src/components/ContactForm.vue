@@ -20,5 +20,5 @@
 
       div.field
         div.control
-          button(type="submit").button Send
+          button(type="submit").button.is-primary Send my Message
 </template>

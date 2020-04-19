@@ -39,16 +39,16 @@
       div.field.is-grouped
         div.control
           label.checkbox
-            input(name="supervisor" type="checkbox")
-            span.ml-1 Volunteer Coordinator
-        div.control
-          label.checkbox
             input(name="sewer" type="checkbox")
             span.ml-1 Sewer
         div.control
           label.checkbox
             input(name="packer" type="checkbox")
             span.ml-1 Packer
+        div.control
+          label.checkbox
+            input(name="supervisor" type="checkbox")
+            span.ml-1 Volunteer Coordinator
         div.control
           label.checkbox
             input(name="acknowledgement" type="checkbox")
@@ -61,5 +61,5 @@
 
       div.field
         div.control
-          button(type="submit").button I'm ready to volunteer!
+          button(type="submit").button.is-primary I'm ready to volunteer!
 </template>
