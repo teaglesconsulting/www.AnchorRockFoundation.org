@@ -43,6 +43,11 @@ export default {
     return {
       navbarIsActive: false
     }
+  },
+  watch: {
+    $route() {
+      this.navbarIsActive = false
+    }
   }
 }
 </script>
