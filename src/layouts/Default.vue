@@ -6,12 +6,12 @@
           g-link(to="/").navbar-item
             g-image(src="~/images/logo.png" width="400" :immediate="true" :alt="$site.siteName")
 
-          a.navbar-burger(@click="$state.navbarIsActive = !$state.navbarIsActive")
+          a.navbar-burger(@click="navbarIsActive = !navbarIsActive")
             span
             span
             span
 
-        div.navbar-menu
+        div.navbar-menu(:class="{'is-active': navbarIsActive}")
           div.navbar-start
             //- g-link(to="/" active-class="is-active" exact).navbar-item.is-tab Home
 
@@ -37,3 +37,12 @@
         input(type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
           title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button")
 </template>
+<script>
+export default {
+  data() {
+    return {
+      navbarIsActive: false
+    }
+  }
+}
+</script>
