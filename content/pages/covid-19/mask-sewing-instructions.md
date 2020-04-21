@@ -14,9 +14,9 @@ published: true
 
 <div class="section has-text-centered">
   <p>
-    <a href="/media/SewingMaskInstructions-20200416.pdf">Download Sewing Instructions</a>
+    <a href="/media/SewingMaskInstructions-20200419.pdf">Download Sewing Instructions</a>
   </p>
   <p>
-    <a href="/media/SewingMaskInstructions-20200416.pdf"><g-image src="media/SewingMaskInstructions-20200416.jpg" width="600" :immediate="true" :alt="$site.siteName" /></a>
+    <a href="/media/SewingMaskInstructions-20200419.pdf"><g-image src="media/SewingMaskInstructions-20200416.jpg" width="600" :immediate="true" :alt="$site.siteName" /></a>
   </p>
 </div>
