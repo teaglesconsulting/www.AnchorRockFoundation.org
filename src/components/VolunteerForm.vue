@@ -22,7 +22,7 @@
         div.control
           input.input(name="street" type="text" placeholder="Street Address")
 
-      div.field.is-grouped
+      div.field.is-grouped.is-grouped-multiline
         div.control.is-expanded
           label.label City
           input.input(name="city" type="text" placeholder="City")
@@ -36,7 +36,7 @@
       div.field.mb-1
         label.label I want to volunteer as a:
 
-      div.field.is-grouped
+      div.field.is-grouped.is-grouped-multiline
         div.control
           label.checkbox
             input(name="sewer" type="checkbox")
@@ -49,10 +49,11 @@
           label.checkbox
             input(name="supervisor" type="checkbox")
             span.ml-1 Volunteer Coordinator
+      div.field
         div.control
           label.checkbox
             input(name="acknowledgement" type="checkbox")
-            span.ml-1 I acknowledge that I have read and meet the requirements to volunteer
+            span.ml-1.has-text-weight-bold I acknowledge that I have read and meet the requirements to volunteer
 
       div.field
         label.label Message
